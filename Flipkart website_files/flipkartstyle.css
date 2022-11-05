@@ -1,0 +1,241 @@
+body{
+      /* background-color: rgb(225, 210, 123); */
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+.contener{
+    position:sticky;
+    top:0px;
+    background-color: navy; 
+    width: 100%;
+    height: 71px;
+    z-index: 3;
+}
+.contener img{
+    display:inline;
+    width: 20%;
+    height: 72px;
+    float: left;
+}
+.menu{
+    width: 700px;
+    margin: 0px;
+    float:left;
+  
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.menu ul li  :hover{
+     color:mintcream;
+     opacity: 0.5;
+}
+ ul li a{
+     padding: 25px;
+     float: left;
+     display: block;
+     width: 70px;
+     text-decoration: none;
+     color: white;
+     font-family: sans-serif;
+     z-index: -1;
+}
+.searchbar{
+    padding: 25px;
+    float: right; 
+    position: absolute; 
+    right: 70px;
+}
+.searchbar :hover{
+    opacity: 0.8;
+}
+.icon a {
+    color:white;
+    position: absolute;
+    top: 24px;
+    right:45px ;
+    text-decoration: none;
+}
+h4{
+    color: white;
+    position: absolute;
+    right: 12px;
+    top: 6px;
+}
+.menubar{
+    width:100%;
+    height: 100px;
+    float: right;
+}
+.menubar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.menubar ul li a{
+    color: black;
+    display: block;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 35px;
+    transition: 1s;
+}
+.menubar ul li a:hover{
+    /* border: 1px solid darkgoldenrod; */
+    color:rgb(6, 177, 245);
+     /* box-shadow: 0px 5px 5px 0px gray; */
+     transform: translate(10px, 10px);
+
+}
+.marquee{
+    width: 61%;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    top:137px;
+    right: 5px;
+    left: 480px;
+}
+.img{
+    display:block;
+    position: relative;
+    left:17px;
+    top: -100px;
+    z-index: -2;
+}
+.img :hover{
+    opacity: 0.9;
+}
+.button{
+    position:relative;
+    top: 20px;
+    right: 190px;
+    float: right;
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color: blue; 
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px black;
+}
+.button:hover{
+ /* cursor: pointer; */
+ font-size: 8px;
+ color: white;
+}
+h2{
+    display:inline-block;
+    position: relative;
+    top: 8px;
+    left: 20px;
+    z-index: -2;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px ;
+    grid-template-rows: 300px 300px 300px 300px;
+    gap: 75px 52px;
+    padding: 25px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(255, 255, 0));
+    height: 1115px;
+}
+.ad{
+    width: 500px;
+    height: 300px;
+}
+.box{
+    /* width:230px ; */
+    /* height: 300px; */
+
+}
+.box :hover{
+    border: 1px solid darkgoldenrod;
+    box-shadow: 0px 5px 5px 5px darkgoldenrod;
+}
+
+.box{
+    text-align: center;
+    width: 100%;
+}
+.box1{
+    background-image:linear-gradient(to right, rgba(164, 63, 63, 0), rgb(0, 255, 234)); 
+    display:block;
+    width: 100%;
+    height: 600px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px; 
+    padding: 1px;
+}
+.box1 p{
+    font-family: 'Montserrat', sans-serif;
+     font-size: 25px;
+     text-decoration:none;
+     color: black;
+     z-index: 2;
+}
+.box1 h1{
+    font-size: 55px;
+    
+}
+.box1 video{
+    display: block;
+    width: 745px;
+    height: 710px;
+    position: relative;
+    bottom: 170px;
+    left: 500px; 
+}
+.box1 img{
+    float: left;
+    position: relative;
+    bottom:730px ;
+    left: 0px;
+    transition: 4s;
+    /* transition: 1s; */
+}
+.box1 img:hover{
+    transform: rotatey(360deg) ;
+}
+.down{
+    margin: 0px;
+    height: 500px;
+    background-color: black;
+    width: 100%;
+    position:absolute;
+    left: 0px;
+}
+.down a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding-left: 300px; 
+}
+.down tr th {
+    width: 220px;
+    padding: 40px;
+    padding-right: 50px;
+    padding-top: 100px;
+    color:white;
+    font-size: 20px;
+}
+tr td{
+    padding: 8px;
+    text-align: center;
+    /* background-color: black;  */
+    color:white;
+    font-size: 15px;
+    line-height: 10px;
+}
+.end img{
+    width: 150px;
+    height: 100px;
+    position: absolute; 
+    left: 600px;
+    bottom: 20px;
+}
